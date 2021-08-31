@@ -1,0 +1,259 @@
+@media screen and (max-width: 1150px) {
+  header {
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  header #meniGore {
+    display: block !important;
+  }
+  header #meniGore ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header #logo {
+    display: block;
+  }
+  header .slovo {
+    display: none;
+  }
+  #drustveneMreze {
+    display: none;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  #sadrzaj {
+    width: 90%;
+    float: right;
+  }
+  #sadrzaj .centar {
+    width: 100%;
+  }
+  #sadrzaj .citat {
+    width: 100%;
+    text-align: center;
+  }
+  footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+  }
+  footer .kontakt {
+    width: 30% !important;
+    margin: 0px;
+  }
+  footer .kontakt p {
+    float: right;
+  }
+  footer .kontakt .fa {
+    display: none;
+  }
+  footer #drustveneMrezeDole {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  nav {
+    display: none;
+  }
+  #sadrzaj {
+    width: 100%;
+  }
+  #sadrzaj #naslov {
+    width: 100%;
+    font-size: 40px;
+  }
+  #sadrzaj .centar {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  #sadrzaj .velikiTekst {
+    width: 50% !important;
+  }
+  #sadrzaj #mojaSlika {
+    margin-top: 50px !important;
+  }
+  #sadrzaj img {
+    width: 100%;
+  }
+  footer {
+    font-size: 17px;
+  }
+  footer #drustveneMrezeDole li {
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  header {
+    height: 70px;
+  }
+  header #meniGore {
+    font-size: 25px !important;
+    padding: 0px !important;
+    padding-left: 50px !important;
+  }
+  footer {
+    position: relative;
+    background-color: transparent;
+  }
+  footer .kontakt {
+    font-size: 20px;
+    text-align: center;
+    width: 100% !important;
+    float: none !important;
+    position: static !important;
+  }
+  footer .kontakt .fa {
+    display: block;
+    margin-bottom: 10px !important;
+  }
+  footer .kontakt p {
+    position: static !important;
+    float: none !important;
+  }
+  footer .fa {
+    position: static !important;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  footer #drustveneMrezeDole {
+    width: 100% !important;
+    float: none !important;
+    text-align: center;
+    margin: 20px 0px;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .centar {
+    margin-top: 100px !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header #meniGore {
+    font-size: 23px !important;
+    padding-left: 5px !important;
+  }
+  #naslov {
+    padding: 0px !important;
+  }
+  .centar {
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  #sadrzaj #naslov {
+    width: 100%;
+  }
+  #sadrzaj #naslov p, #sadrzaj #naslov h1 {
+    font-size: 30px;
+  }
+  #sadrzaj .centar {
+    margin: 100px 0px;
+    padding: 10px;
+  }
+  #sadrzaj .centar h2 {
+    font-size: 35px;
+  }
+  #sadrzaj .centar .ispod figure figcaption {
+    margin-top: 10px !important;
+  }
+  #sadrzaj .centar .ispod .maliTekst {
+    width: 100%;
+  }
+  #sadrzaj .centar .ispod .velikiTekst {
+    width: 100% !important;
+    padding-right: 15px;
+  }
+  #sadrzaj .centar .ispod #mojaSlika {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  #sadrzaj .centar .ispod #forma {
+    width: 90%;
+  }
+  #sadrzaj .centar .ispod #forma #tabela {
+    width: 100%;
+  }
+  #sadrzaj .citat p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header #meniGore {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    height: 50px;
+  }
+  header #meniGore {
+    font-size: 18px !important;
+    margin-top: 5px !important;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  header #meniGore {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    background-color: rgba(237, 238, 201, 0.2);
+    position: relative;
+    top: 0;
+    height: 100%;
+  }
+  header #logo {
+    margin-left: 45%;
+    height: 50px;
+  }
+  header #logo img {
+    height: 100%;
+  }
+  header #meniGore {
+    width: 100%;
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+    font-size: 25px !important;
+  }
+  header #meniGore ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #sadrzaj {
+    margin-top: 0px !important;
+  }
+  #sadrzaj #naslov {
+    height: 200px;
+  }
+  #sadrzaj .kruzici {
+    width: 100% !important;
+    padding: 0px 120px !important;
+  }
+  #sadrzaj .kruzici figcaption {
+    font-size: 20px !important;
+    margin: 50px 0px;
+  }
+  #sadrzaj #tabela input, #sadrzaj #tabela textarea {
+    background-color: rgba(145, 47, 86, 0.5) !important;
+  }
+  #sadrzaj #tabela .fa {
+    left: 35% !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
